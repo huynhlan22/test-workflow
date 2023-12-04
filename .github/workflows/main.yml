@@ -1,4 +1,4 @@
-name: test workflow
+name: test GitHub Actions
 
 on:
   pull_request:
@@ -12,4 +12,4 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v4
         with:
-          repository: huynhlan21/git-tutorial
+          repository: huynhlan22/autotests-ci
