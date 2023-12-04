@@ -1,4 +1,4 @@
-name: test workflow
+name: test GitHub Actions
 
 on:
   pull_request:
